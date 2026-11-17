@@ -1,0 +1,16 @@
+import numpy as np
+
+u = np.array([2, -5, -1])
+v = np.array([-7, -4, 6])
+
+dot_product = np.dot(u, v)
+
+squared_norm_u = np.dot(u, u)
+
+difference = u - v
+squared_distance = np.dot(difference, differnce)
+
+print("u dot v = ", dot_product)
+print("||u|| = ", squared_norm_u)
+print("||u - v || =", squared_distance)
+
